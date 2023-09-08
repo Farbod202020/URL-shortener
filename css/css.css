@@ -1,0 +1,172 @@
+body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+}
+.maincontainer{
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(
+        55deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(291deg 100% 20%) 12%,
+        hsl(320deg 100% 27%) 26%,
+        hsl(335deg 100% 36%) 41%,
+        hsl(345deg 100% 41%) 54%,
+        hsl(0deg 86% 48%) 66%,
+        hsl(346deg 100% 50%) 76%,
+        hsl(336deg 100% 50%) 84%,
+        hsl(325deg 100% 50%) 91%,
+        hsl(313deg 100% 50%) 96%,
+        hsl(301deg 100% 50%) 100%
+      );
+    position: fixed;
+}
+.secondcontainer{
+    width: 50%;
+    position: absolute;
+    top:50%;
+    margin-top: -200px;
+    left:50%;
+    margin-left: -25%;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid 1px gray;
+}
+.topic{
+    position: absolute;
+    width:250px;
+    left:50%;
+    margin-left:-125px;
+}
+.form{
+    width: 95%;
+    position: absolute;
+    left:50%;
+    margin-left: -47.5%;
+    height: 100px;
+    top:60%;
+    margin-top: -50px;
+}
+.t-styles{
+    padding-left: 20px;
+}
+.t-styles-1{
+    padding-left: 20px;
+}
+.url{
+    width:125px;
+    position: absolute;
+    left:50%;
+    height: 60px;
+    margin-left: -62.5px;
+    top:30%;
+    margin-top: -30px;
+
+}
+.text{
+    width: 89%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+.btn{
+    height: 35px;
+    background-color: red;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+.copy{
+    height: 35px;
+    background-color: red;
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+.s-url{
+    position: absolute;
+    width: 240px;
+    left:50%;
+    margin-left: -100px;
+    top:70%;
+}
+@media screen and (max-width: 1400px) {
+        .text{
+            width:85% ;
+        }
+  }
+  @media screen and (max-width: 1000px) {
+    .text{
+        width:80% ;
+    }
+}
+@media screen and (max-width: 750px) {
+    .text{
+        width:75% ;
+    }
+}
+@media screen and (max-width: 600px) {
+    .text{
+        width:70% ;
+    }
+    .font-1{
+        font-size: 10px;
+    }
+    .s-url{
+        width: 200px;
+        left:50%;
+        margin-left: -80px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .copy{
+    margin-left:5px;
+}
+}
+@media screen and (max-width: 500px) {
+    .text{
+        width:65% ;
+    }
+    .t-styles{
+        font-size: 25px;
+        padding-left: 35px;
+    }
+    .t-styles-1{
+        font-size: 15px;
+        width:150px;
+        position: absolute;
+        left:50%;
+        height: 60px;
+        margin-left: -75px;
+        top:30%;
+        margin-top: -30px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .text{
+        width:60% ;
+    }
+}
+@media screen and (max-width: 400px) {
+    .secondcontainer{
+        width: 80%;
+        position: absolute;
+        top:50%;
+        margin-top: -200px;
+        left:50%;
+        margin-left: -40%;
+        height: 400px;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid 1px gray;
+    }
+    .text{
+        width:70% ;
+    }
+}
+@media screen and (max-width: 400px) {
+    .text{
+        width:65% ;
+    }
+}
